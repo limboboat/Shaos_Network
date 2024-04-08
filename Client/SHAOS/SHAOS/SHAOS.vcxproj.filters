@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{379eafa0-ec40-4ee4-9244-121e9537c86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\World">
+      <UniqueIdentifier>{9c54c4e2-3c79-4600-b5c0-25ec8bb0a6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj">
+      <UniqueIdentifier>{cd05b18d-4404-432e-9a53-46d55cc6f151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Team">
+      <UniqueIdentifier>{269fc535-5db4-464e-8886-c875c3f2ce82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Team\User">
+      <UniqueIdentifier>{cbb44f92-07f3-4560-9fef-fb7ef77c6e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Team\Enemy">
+      <UniqueIdentifier>{2aaa3b39-5d37-4b09-9d4d-f52ddd304cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="나머지">
+      <UniqueIdentifier>{1ad34f93-2dcc-427c-9793-2a65b3856018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Player">
+      <UniqueIdentifier>{00ae2e6e-34b5-4c88-8e6c-b03ff96a6b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Unit">
+      <UniqueIdentifier>{cdcfaa12-ecff-4f9f-8207-7e161617b3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Unit\Tri">
+      <UniqueIdentifier>{c47b9ada-9e79-4a81-8a3f-f5a579cb24b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Unit\Dia">
+      <UniqueIdentifier>{30d16326-a9b2-4ca3-b880-a842de6e6f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Unit\Ellip">
+      <UniqueIdentifier>{a3f6d754-fcda-4ba3-85d7-489e7a5dfdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Tower">
+      <UniqueIdentifier>{ac653279-a98b-4d57-a7f8-50c9918d4a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Turret">
+      <UniqueIdentifier>{a50c1b31-6329-4178-a076-82a5d9866243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObj\Unit\Rect">
+      <UniqueIdentifier>{2b2b3bfd-0e11-4192-a985-1d0e9dbf7b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{231b16d5-2327-46cb-89f5-8a5f75d3ec47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{114bb76a-ce3f-436d-8c9b-dd31ada4f032}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObject.h">
+      <Filter>GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>GameObj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CTeam.h">
+      <Filter>Team</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>Team\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CHp.h">
+      <Filter>나머지</Filter>
+    </ClInclude>
+    <ClInclude Include="CTower.h">
+      <Filter>GameObj\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="SHAOS.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CTurret.h">
+      <Filter>GameObj\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnit.h">
+      <Filter>GameObj\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CRect.h">
+      <Filter>GameObj\Unit\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>나머지</Filter>
+    </ClInclude>
+    <ClInclude Include="CUser.h">
+      <Filter>Team\User</Filter>
+    </ClInclude>
+    <ClInclude Include="CDia.h">
+      <Filter>GameObj\Unit\Dia</Filter>
+    </ClInclude>
+    <ClInclude Include="CTri.h">
+      <Filter>GameObj\Unit\Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorld.h">
+      <Filter>FrameWork\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CEllip.h">
+      <Filter>GameObj\Unit\Ellip</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SHAOS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorld.cpp">
+      <Filter>FrameWork\World</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObject.cpp">
+      <Filter>GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>GameObj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnit.cpp">
+      <Filter>GameObj\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CUser.cpp">
+      <Filter>Team\User</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>Team\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CHp.cpp">
+      <Filter>나머지</Filter>
+    </ClCompile>
+    <ClCompile Include="CTower.cpp">
+      <Filter>GameObj\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="CTurret.cpp">
+      <Filter>GameObj\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="CRect.cpp">
+      <Filter>GameObj\Unit\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>나머지</Filter>
+    </ClCompile>
+    <ClCompile Include="CTeam.cpp">
+      <Filter>Team</Filter>
+    </ClCompile>
+    <ClCompile Include="CEllip.cpp">
+      <Filter>GameObj\Unit\Ellip</Filter>
+    </ClCompile>
+    <ClCompile Include="CDia.cpp">
+      <Filter>GameObj\Unit\Dia</Filter>
+    </ClCompile>
+    <ClCompile Include="CTri.cpp">
+      <Filter>GameObj\Unit\Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetwork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SHAOS.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SHAOS.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Resource\map.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
